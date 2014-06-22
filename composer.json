@@ -25,6 +25,7 @@
 	{
 		"php": ">=5.4.0",
 		"nailsapp/module-admin" : "dev-develop",
-		"nailsapp/module-system" : "dev-develop"
+		"nailsapp/module-system" : "dev-develop",
+		"nailsapp/module-email" : "dev-develop"
 	}
 }
