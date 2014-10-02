@@ -1,10 +1,16 @@
 {
 	"name": "nailsapp/nails",
-	"keywords": ["Nails","Shed Collective","CodeIgniter"],
+	"keywords":
+	[
+		"Nails",
+		"Shed Collective",
+		"CodeIgniter"
+	],
 	"homepage": "http://nailsapp.co.uk",
 	"description": "The Nails dependency bootstrapper.",
-	"license":"MIT",
-	"authors": [
+	"license": "MIT",
+	"authors":
+	[
 		{
 			"name": "Pablo de la Pena",
 			"email": "p@shedcollective.org",
@@ -18,42 +24,47 @@
 			"role": "Developer"
 		}
 	],
-	"support": {
+	"support":
+	{
 		"email": "hello@shedcollective.org"
 	},
 	"require":
 	{
-		"php": ">=5.4.0",
-		"nailsapp/module-admin" : "dev-develop",
-		"nailsapp/module-asset" : "dev-develop",
-		"nailsapp/module-email" : "dev-develop",
-		"nailsapp/module-event" : "dev-develop",
-		"nailsapp/module-system" : "dev-develop"
+		"nailsapp/module-admin": "dev-develop",
+		"nailsapp/module-asset": "dev-develop",
+		"nailsapp/module-email": "dev-develop",
+		"nailsapp/module-event": "dev-develop",
+		"nailsapp/module-system": "dev-develop"
 	},
-	"extra": {
-        "modules": {
-			"nailsapp":
-			[
-				"module-admin",
-				"module-api",
-				"module-asset",
-				"module-auth",
-				"module-barcode",
-				"module-blog",
-				"module-cdn",
-				"module-cms",
-				"module-cron",
-				"module-curl",
-				"module-deploy",
-				"module-email",
-				"module-event",
-				"module-geo-ip",
-				"module-pdf",
-				"module-shop",
-				"module-sitemap",
-				"module-system",
-				"module-testimonial"
-			]
-        }
-    }
+	"extra":
+	{
+		"nails" :
+		{
+			"modules":
+			{
+				"nailsapp":
+				[
+					"module-admin",
+					"module-api",
+					"module-asset",
+					"module-auth",
+					"module-barcode",
+					"module-blog",
+					"module-cdn",
+					"module-cms",
+					"module-cron",
+					"module-curl",
+					"module-deploy",
+					"module-email",
+					"module-event",
+					"module-geo-ip",
+					"module-pdf",
+					"module-shop",
+					"module-sitemap",
+					"module-system",
+					"module-testimonial"
+				]
+			}
+		}
+	}
 }
