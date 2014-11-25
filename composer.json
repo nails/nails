@@ -30,6 +30,8 @@
 	},
 	"require":
 	{
+		"php": ">=5.4.0",
+		"ext-mcrypt": "*",
 		"nailsapp/module-admin": "dev-develop",
 		"nailsapp/module-asset": "dev-develop",
 		"nailsapp/module-email": "dev-develop",
@@ -40,6 +42,7 @@
 	{
 		"nails" :
 		{
+			"minPhpVersion": "5.4.0",
 			"modules":
 			{
 				"nailsapp":
