@@ -55,6 +55,7 @@
 					"module-blog",
 					"module-cdn",
 					"module-cms",
+					"module-comment",
 					"module-cron",
 					"module-curl",
 					"module-deploy",
