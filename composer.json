@@ -35,8 +35,7 @@
 		"nailsapp/module-admin": "dev-develop",
 		"nailsapp/module-asset": "dev-develop",
 		"nailsapp/module-email": "dev-develop",
-		"nailsapp/module-event": "dev-develop",
-		"nailsapp/module-system": "dev-develop"
+		"nailsapp/module-event": "dev-develop"
 	},
 	"extra":
 	{
@@ -65,7 +64,6 @@
 					"module-pdf",
 					"module-shop",
 					"module-sitemap",
-					"module-system",
 					"module-testimonial"
 				]
 			}
