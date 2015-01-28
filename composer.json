@@ -32,6 +32,7 @@
 	{
 		"php": ">=5.4.0",
 		"ext-mcrypt": "*",
+		"nailsapp/common": "dev-develop",
 		"nailsapp/module-admin": "dev-develop",
 		"nailsapp/module-asset": "dev-develop",
 		"nailsapp/module-email": "dev-develop",
@@ -41,32 +42,7 @@
 	{
 		"nails" :
 		{
-			"minPhpVersion": "5.4.0",
-			"modules":
-			{
-				"nailsapp":
-				[
-					"module-admin",
-					"module-api",
-					"module-asset",
-					"module-auth",
-					"module-barcode",
-					"module-blog",
-					"module-cdn",
-					"module-cms",
-					"module-comment",
-					"module-cron",
-					"module-curl",
-					"module-deploy",
-					"module-email",
-					"module-event",
-					"module-geo-ip",
-					"module-pdf",
-					"module-shop",
-					"module-sitemap",
-					"module-testimonial"
-				]
-			}
+			"minPhpVersion": "5.4.0"
 		}
 	}
 }
