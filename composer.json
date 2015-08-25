@@ -1,11 +1,6 @@
 {
 	"name": "nailsapp/nails",
-	"keywords":
-	[
-		"Nails",
-		"Shed Collective",
-		"CodeIgniter"
-	],
+	"keywords": ["Nails", "Shed Collective", "CodeIgniter"],
 	"homepage": "http://nailsapp.co.uk",
 	"description": "The Nails dependency bootstrapper.",
 	"license": "MIT",
