@@ -29,11 +29,7 @@
 	{
 		"php": ">=5.6.0",
 		"ext-mcrypt": "*",
-		"nailsapp/common": "dev-develop",
-		"nailsapp/module-admin": "dev-develop",
-		"nailsapp/module-asset": "dev-develop",
-		"nailsapp/module-email": "dev-develop",
-		"nailsapp/module-event": "dev-develop"
+		"nailsapp/common": "dev-develop"
 	},
 	"extra":
 	{
