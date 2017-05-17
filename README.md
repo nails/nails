@@ -1,6 +1,6 @@
 # Nails Bootstrapper
 
-[![Join the chat at https://gitter.im/nailsapp/nails](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nailsapp/nails?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat on Slack!](https://now-examples-slackin-rayibnpwqe.now.sh/badge.svg)](https://nails-app.slack.com/shared_invite/MTg1NDcyNjI0ODcxLTE0OTUwMzA1NTYtYTZhZjc5YjExMQ)
 
 This initiates all the core Nails dependencies
 
