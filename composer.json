@@ -1,30 +1,41 @@
 {
-	"name": "nailsapp/nails",
-	"keywords": ["Nails","Shed Collective","CodeIgniter"],
+	"name": "nails/nails",
+	"keywords": ["Nails", "Shed Collective", "CodeIgniter"],
 	"homepage": "http://nailsapp.co.uk",
 	"description": "The Nails dependency bootstrapper.",
-	"license":"MIT",
-	"authors": [
+	"license": "MIT",
+	"authors":
+	[
 		{
 			"name": "Pablo de la Pena",
-			"email": "p@shedcollective.org",
-			"homepage": "http://shedcollective.org",
+			"email": "p@nailsapp.co.uk",
+			"homepage": "http://nailsapp.co.uk",
 			"role": "Developer"
 		},
 		{
 			"name": "Gary Duncan",
-			"email": "g@shedcollective.org",
-			"homepage": "http://shedcollective.org",
+			"email": "g@nailsapp.co.uk",
+			"homepage": "http://nailsapp.co.uk",
 			"role": "Developer"
 		}
 	],
-	"support": {
-		"email": "hello@shedcollective.org"
+	"support":
+	{
+		"email": "hello@nailsapp.co.uk"
 	},
+	"minimum-stability": "dev",
+    "prefer-stable": true,
 	"require":
 	{
-		"php": ">=5.4.0",
-		"nailsapp/module-admin" : "dev-master",
-		"nailsapp/module-system" : "dev-master"
+		"php": ">=5.6.0",
+		"ext-mcrypt": "*",
+		"nails/common": "dev-develop"
+	},
+	"extra":
+	{
+		"nails" :
+		{
+			"minPhpVersion": "5.6.0"
+		}
 	}
 }
