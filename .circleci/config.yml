@@ -1,0 +1,44 @@
+# PHP CircleCI 2.0 configuration file
+#
+# Check https://circleci.com/docs/2.0/language-php/ for more details
+#
+version: 2
+jobs:
+  build:
+    docker:
+    # specify the version you desire here
+    - image: circleci/php:7.2.9-cli-stretch-node
+
+    # Specify service dependencies here if necessary
+    # CircleCI maintains a library of pre-built images
+    # documented at https://circleci.com/docs/2.0/circleci-images/
+    # - image: circleci/mysql:9.4
+
+    working_directory: ~/repo
+
+    steps:
+    - checkout
+
+    # Install Mcrypt extension
+    # CircleCI: It does not work, bro
+    # Me: Try again
+    # CircleCI: Cool, I got dis
+    # https://discuss.circleci.com/t/apt-get-error-exited-with-code-100/26722/5
+    - run: sudo apt-get update -y || sudo apt-get update -y
+    - run: sudo apt-get install libmcrypt-dev -y
+    - run: sudo pecl install mcrypt-1.0.1 && sudo docker-php-ext-enable mcrypt
+
+    # Restore Composer cache
+    - restore_cache:
+        keys:
+        - composer-dependencies-{{ checksum "composer.json" }}
+        - composer-dependencies-
+
+    # Execute Composer install
+    - run: composer --no-interaction --optimize-autoloader install
+
+    # Save Composer cache
+    - save_cache:
+        paths:
+        - ./vendor
+        key: composer-dependencies-{{ checksum "composer.json" }}
