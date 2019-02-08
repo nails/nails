@@ -28,8 +28,6 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": ">=5.6.0",
-        "ext-mcrypt": "*",
         "nails/common": "dev-develop",
         "nails/module-admin": "dev-develop",
         "nails/module-asset": "dev-develop",
@@ -37,10 +35,5 @@
         "nails/module-event": "dev-develop",
         "nails/module-console": "dev-develop",
         "nails/driver-error-handler-default": "dev-develop"
-    },
-    "extra": {
-        "nails": {
-            "minPhpVersion": "5.6.0"
-        }
     }
 }
