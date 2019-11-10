@@ -32,7 +32,6 @@
         "nails/module-admin": "dev-develop",
         "nails/module-asset": "dev-develop",
         "nails/module-email": "dev-develop",
-        "nails/module-event": "dev-develop",
         "nails/module-console": "dev-develop",
         "nails/driver-error-handler-default": "dev-develop"
     }
