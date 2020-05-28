@@ -19,15 +19,6 @@ jobs:
     steps:
     - checkout
 
-    # Install Mcrypt extension
-    # CircleCI: It does not work, bro
-    # Me: Try again
-    # CircleCI: Cool, I got dis
-    # https://discuss.circleci.com/t/apt-get-error-exited-with-code-100/26722/5
-    - run: sudo apt-get update -y || sudo apt-get update -y
-    - run: sudo apt-get install libmcrypt-dev -y
-    - run: sudo pecl install mcrypt-1.0.1 && sudo docker-php-ext-enable mcrypt
-
     # Restore Composer cache
     - restore_cache:
         keys:
