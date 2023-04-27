@@ -30,7 +30,7 @@
     "require": {
         "nails/common": "dev-feature/pre-new-admin",
         "nails/module-admin": "dev-feature/pre-new-admin",
-        "nails/module-asset": "dev-feature/pre-new-admin",
+        "nails/module-asset": "dev-develop",
         "nails/module-email": "dev-feature/pre-new-admin",
         "nails/module-console": "dev-feature/pre-new-admin",
         "nails/driver-error-handler-default": "dev-feature/pre-new-admin"
