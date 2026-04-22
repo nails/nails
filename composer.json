@@ -1,7 +1,6 @@
 {
     "name": "nails/nails",
-    "keywords":
-    [
+    "keywords": [
         "Nails",
         "Shed Collective",
         "CodeIgniter"
@@ -9,8 +8,7 @@
     "homepage": "http://nailsapp.co.uk",
     "description": "The Nails dependency bootstrapper.",
     "license": "MIT",
-    "authors":
-    [
+    "authors": [
         {
             "name": "Pablo de la Pena",
             "email": "p@nailsapp.co.uk",
@@ -24,14 +22,13 @@
             "role": "Developer"
         }
     ],
-    "support":
-    {
+    "support": {
         "email": "hello@nailsapp.co.uk"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "require":
-    {
+    "require": {
+        "php": ">=8.3",
         "nails/common": "dev-feature/pre-new-admin",
         "nails/module-admin": "dev-feature/pre-new-admin",
         "nails/module-asset": "dev-develop",
